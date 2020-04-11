@@ -1,16 +1,44 @@
-# Spring-Batch  - Upload Inicial de Clientes!
+# Upload Inicial de Clientes
+Sistema desenvolvido com **Spring-Batch** para realizar o upload inicial de possíveis clientes na base de dados do novo cartão de crédito da **Fiap**.(Trabalho de Spring Framework)
 
-Projeto desenvolvido com **Spring-Batch** para realizar o upload inicial de possíveis clientes na base de dados do novo cartão de crédito da **Fiap**.
+## Inicio
+Estas instruções irão lhe ensinar como executar uma versão local para densenvolvimento.
 
-# Instalações e Instruções 
- 
-Para executar o projeto, realizar os passos **descritos abaixo**.
+### Pré-requisitos
+IDE Java (Eclipse, IntelliJ, etc.).
 
-## Instalações  
+### Installing
+Copiar a versão mais recente do repositório:
+```
+https://github.com/Smagnotto/BatchClientes
+```
 
-- [MySQL](https://dev.mysql.com/downloads/mysql/)
-> Inserir link de tutorial aqui
-- Sua IDE favorita com suporte para o Java
-- [Java SDK 8](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
+Utilizar ela em sua IDE.
 
-## Instruções 
+## Executando os testes
+
+Utilizar os testes unitários já disponíveis com o código, ou utilizar a biblioteca do Postman dentro do projeto. 
+
+```
+https://github.com/Smagnotto/BatchClientes/tree/master/postman
+```
+
+## Implantação
+
+Para implantação em ambiente produtivo, é necessária a troca do banco de dados de H2 para o de sua preferência.
+Além da inibição da opção ddl-auto do hibertane, pois não é ma boa prática para produção.
+
+
+## Construído com
+* [Maven](https://maven.apache.org/) - Gerenciador de dependências
+* [Spring](https://spring.io) - Java Framework
+* [H2 Database Engine](https://www.h2database.com) - Banco de dados
+
+## Autores
+Nome                  | RM
+--------------------- | ------
+Bruno Gea             | 333475
+Diego Smagnotto       | 333886
+Eduardo Matoso        | 333906
+Felipe da Costa Silva | 333862
+Tiago Langoni         | 333947
